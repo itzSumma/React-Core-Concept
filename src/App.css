@@ -81,9 +81,15 @@
 
 }
 
-.users {
+.cards {
   border: 2px solid magenta;
   border-radius: 25px;
-  width: 250px;
+    margin: 20px auto 20px auto;
+}
+.card{
+   border: 2px solid magenta;
+  border-radius: 25px;
   margin: 20px auto 20px auto;
+max-width:80% ;
+  padding: 10px;
 }

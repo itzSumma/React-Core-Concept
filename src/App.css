@@ -56,3 +56,27 @@
   background-color: navy;
   transform: scale(1.04);
 }
+.button-box {
+           display: flex;
+           justify-content: center;
+           text-align: center;
+           gap:15px;
+}
+
+.button-box button {
+  padding: 10px 16px;      /* Button size */
+  font-size: 16px;
+  cursor: pointer;
+  border: 2px solid magenta;
+  border-radius: 15px;      /* Rounded corners */
+  background-color: transparent;
+  /* transition: all 0.2s; */
+   transition: background-color 0.3s, transform 0.2s;
+}
+
+.button-box button:hover {
+  background-color:skyblue;
+  color: black;
+  transform: scale(1.04);
+    
+}

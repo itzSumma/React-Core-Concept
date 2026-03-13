@@ -1,5 +1,6 @@
 import "./App.css";
 import Counter from "./Counter";
+import Batsman from "./Batsman";
 function App() {
   function handleClick() {
     alert(" I am clicked");
@@ -17,6 +18,7 @@ function App() {
   return (
     <>
       <h1>Hello I Am React</h1>
+      <Batsman></Batsman>
       <Counter></Counter>
     {/* Flex container with gap */}
       <div style={{ display: "flex", gap: "10px", flexWrap: "wrap", marginTop: "20px" }}>

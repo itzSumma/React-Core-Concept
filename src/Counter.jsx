@@ -2,8 +2,8 @@ import { useState } from "react"
 
 export default function Counter (){
     const counterStyle ={
-        border : "2px solid yellow",
-     
+        border : "2px solid magenta",
+         borderRadius: "25px",
        paddingTop: 10,
         paddingBottom: 15,
         width:"250px",

@@ -28,11 +28,11 @@ const [fours, setFours]=useState(0)
         <div>
             <h2>Player: Bangladeshi</h2>
             {
-                <h3><bold>Six:{sixes}</bold></h3>
+                <h3><b>Six:{sixes}</b></h3>
             
             }
             {
-                <h3> <bold>Four:{fours}</bold>
+                <h3> <strong>Four:{fours}</strong>
 
                 </h3>
             }
